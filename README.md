@@ -1,37 +1,72 @@
-## Welcome to GitHub Pages
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Dog Distractor</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
 
-You can use the [editor on GitHub](https://github.com/dmrivers/thedogdistractor/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+<body>
+<img src="Images/logo purple copy.png" width="739" height="94" class="logo" onclick="playAudio()" alt="dog distractor logo" />
+	
+<img src="Images/Patient0DogDistractor.jpg" class="proto" onMouseover="playAudio()"  alt="protoype"/>
+	
+	<br>
+	<br>
+	<br>
+	<br>
+	<br><a1 {text-align: center;} href="earlydesigns.html" class="early"><a href="earlydesigns.html">Early Designs</a></a1>
+	<br><a1 {text-align: center;} href="happydogs.html" class="happy"><a href="happydogs.html">Happy Dogs</a></a1>
+	<a1 {text-align: center;} href="about.html" class="about"><a href="about.html">About</a></a1>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<audio id="myAudio">
+		<source src="Audio/dog bark.wav" type="audio/wav" >
+	</audio>
+	<audio id="Audio">
+		<source src="Audio/dog sniffing.wav" type="audio/wav" >
+	</audio>
+	<br>
+	<br><br><br><br><br><br><br><br><br>
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	
+	<p> The Dog Distractor Original Design© 2022 </p>
+	
+	
+	
+	<script>
+	
+	var x = document.getElementById("myAudio"); 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+	function playAudio() { 
+	  x.play(); 
+	} 
 
-### Markdown
+	function pauseAudio() { 
+	  x.pause(); 
+	} 
+	
+</script>
+	
+	
+	<script>
+	
+	var x = document.getElementById("Audio"); 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+	function playAudio() { 
+	  x.play(); 
+	} 
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/dmrivers/thedogdistractor/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+	function pauseAudio() { 
+	  x.pause(); 
+	} 
+	
+</script>
+</body>
+</html>
