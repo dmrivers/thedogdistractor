@@ -1,0 +1,45 @@
+@charset "UTF-8";
+.logo{
+    position: absolute;
+    left: 450px;
+	border: groove, #5CC088;
+	text-underline-position: below;
+	}
+
+body {background:#87C9C6}
+
+.proto{
+	position: absolute;
+	top: 150px;
+	left: 100px;
+}
+p {text-align: center;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	text-shadow: 4px 6px 5px yellow;
+	text-decoration-color: darkred;
+	color: aliceblue;
+	font-size: 30px;
+	font-style: italic;
+	}
+
+.early {
+	text-align: center;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	text-shadow: 2px 2px 3px green;
+	left: 250px;
+	
+	}
+
+.happy{
+	align-content: center;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	text-shadow: 2px 2px 3px red;
+	left: 450px;
+	
+}
+.about{align-content: center;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	text-shadow: 2px 2px 3px orange;
+	left: 450px;
+	
+}
